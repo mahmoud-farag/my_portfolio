@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 7rem 0 13rem;
+  padding: 2rem;
+  border-top-left-radius: 10rem;
+  border-top-right-radius: 20rem;
+  border-bottom-right-radius: 10rem;
+  border-bottom-left-radius: 10rem;
+
+  /* background-color: rgba(0, 0, 0, 0.6); */
+}
+
+.container section.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.container section.skills .img {
+  padding: 0;
+  margin: 0 0 4rem 0;
+  display: flex;
+  /* background-color: red; */
+}
+
+hr {
+  margin-bottom: 7rem;
+  margin-top: 2rem;
+}
+.container section.certifications {
+}

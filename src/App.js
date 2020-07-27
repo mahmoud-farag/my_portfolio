@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
+import MySkills from "./components/MySkills/MySkills";
 import ContactMe from "./components/ContactMe/ContactMe";
 
 import MyWork from "./components/MyWork/MyWork";
@@ -16,7 +16,7 @@ const App = () => {
       <Router>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/About" component={About} />
+          <Route path="/MySkills" component={MySkills} />
           <Route path="/ContactMe" component={ContactMe} />
           <Route path="/MyWork" component={MyWork} />
           <Route component={NotFound} />

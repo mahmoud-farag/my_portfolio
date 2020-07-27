@@ -1,0 +1,62 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+section.container {
+  margin-top: 4rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+section.container div {
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  display: flex;
+  justify-items: center;
+  position: relative;
+}
+
+section.container div i {
+  width: 5%;
+}
+
+section.container div a,
+section.container div p {
+  width: 95%;
+}
+
+section.container div p {
+  position: absolute;
+  left: 4.2rem;
+  top: -1.2rem;
+}
+
+i.fa-facebook {
+  color: #3b5998;
+}
+a.facebook {
+  color: #3b5998;
+}
+
+i.fa-whatsapp {
+  color: #075e54;
+}
+p.whatsapp {
+  color: #075e54;
+}
+
+i.fa-linkedin {
+  color: #0e76a8;
+}
+a.linkedin {
+  color: #0e76a8;
+}
+
+i.fa-envelope {
+  color: #999;
+}
+p.envelope {
+  color: #fff;
+}
