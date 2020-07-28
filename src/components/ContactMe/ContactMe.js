@@ -3,15 +3,14 @@ import React from "react";
 import "./contactme.css";
 const ContactMe = () => {
   return (
-    <section className="container">
+    <section className="Container">
       <div>
         <i className="fa fa-github fa-2x" aria-hidden="true"></i>
         <a className="github" href="https://github.com/mahmoud-farag">
-          {" "}
           Github Account
         </a>
       </div>
-
+      <hr></hr>
       <div>
         <i className="fa fa-linkedin fa-2x" aria-hidden="true"></i>
         <a
@@ -21,7 +20,7 @@ const ContactMe = () => {
           LinkedIn Account
         </a>
       </div>
-
+      <hr></hr>
       <div>
         <i className="fa fa-facebook fa-2x" aria-hidden="true"></i>
         <a
@@ -32,11 +31,12 @@ const ContactMe = () => {
         </a>
       </div>
 
+      <hr></hr>
       <div>
         <i className="fa fa-whatsapp fa-2x" aria-hidden="true"></i>
         <p className="whatsapp">01024279414</p>
       </div>
-
+      <hr></hr>
       <div>
         <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
         <p className="envelope"> Gmail: mahmoud32salamn@gmial.com</p>

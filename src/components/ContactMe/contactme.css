@@ -4,30 +4,30 @@
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
-section.container {
-  margin-top: 4rem;
-  margin-left: 7rem;
-  margin-right: 7rem;
-}
 
-section.container div {
+section.Container {
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 5rem;
+}
+section.Container div {
   margin-bottom: 3rem;
   margin-left: 3rem;
-  display: flex;
-  justify-items: center;
+  display: block;
+  flex-direction: column;
   position: relative;
 }
 
-section.container div i {
+section.Container div i {
   width: 5%;
 }
 
-section.container div a,
-section.container div p {
+section.Container div a,
+section.Container div p {
   width: 95%;
 }
 
-section.container div p {
+section.Container div p {
   position: absolute;
   left: 4.2rem;
   top: -1.2rem;
