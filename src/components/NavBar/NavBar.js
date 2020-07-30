@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./style.css";
+import "./navbar.css";
 
 const NavBar = () => {
   const mobileNav = () => {
@@ -29,8 +29,8 @@ const NavBar = () => {
   };
   return (
     <nav>
-      <h3 class="logo">Logo</h3>
-      <ul class="nav_links" id="ul">
+      <h3 className="logo">Logo</h3>
+      <ul className="nav_links" id="ul">
         <li>
           <a href="/">Home</a>
         </li>
@@ -45,10 +45,10 @@ const NavBar = () => {
         </li>
       </ul>
 
-      <div class="burger" onClick={mobileNav}>
-        <div class="line1"></div>
-        <div class="line2"></div>
-        <div class="line3"></div>
+      <div className="burger" onClick={mobileNav}>
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
       </div>
     </nav>
   );

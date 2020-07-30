@@ -20,7 +20,6 @@ const Home = () => {
           Read my resume
         </a>
       </div>
-      <script src="./main.js"></script>
     </section>
   );
 };

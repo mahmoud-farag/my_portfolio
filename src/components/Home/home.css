@@ -5,9 +5,29 @@
   box-sizing: border-box;
 }
 
+/* 
+  to fit the background image on the mobile mode and to remove any overflow in x-axis
+
+ but you must make only the body position: relative
+*/
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  background: url("./imgs/waman.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
+  position: relative;
 }
 
 section.main {
@@ -36,23 +56,47 @@ section.main .hint h1 {
   padding: 0;
   margin: 0;
 }
+
+section.main .hint p {
+  font-weight: bold;
+}
+
 section.main .btns {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+  /* background-color: rgba(0, 0, 0, 0.6); */
 }
 section.main .btns .btn {
-  border: 2px solid #fff;
+  border: 2px solid #000;
   padding: 1rem;
   margin-right: 2rem;
   border-radius: 4rem;
-  color: #fff;
+  color: #000;
+  text-align: center;
+  text-decoration: none;
 }
 
 section.main .btns .btn:hover {
-  background-color: #fff;
+  background-color: #000;
   border: 2px solid #000;
-  color: #000;
+  color: #fff;
   opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    background: url("./imgs/waman-mobile.jpg") no-repeat center center fixed;
+  }
+  section.main .btns .btn {
+    font-weight: bold;
+  }
+  section.main .btns {
+    display: grid;
+    grid-template-columns: 15rem;
+    height: 10rem;
+  }
 }
