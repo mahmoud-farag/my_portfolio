@@ -6,24 +6,17 @@ const MySkills = () => {
     <div className="container">
       <h1>Technologies and skills</h1>
       <section className="skills">
-        <div className="img nodejs">
-          <img src={require("./imgs/nodejs.png")} alt="Node.js" />
-        </div>
-        <div className="img reactjs">
-          <img src={require("./imgs/reactjs.png")} alt="React.js" />
-        </div>
-        <div className="img mongo">
-          <img src={require("./imgs/mongoDB.png")} alt="MongoDB" />
-        </div>
-        <div className="img mysql">
-          <img src={require("./imgs/mysql.png")} alt="MySQL" />
-        </div>
-        <div className="img html5">
-          <img src={require("./imgs/html5.png")} alt="HTML5" />
-        </div>
-        <div className="img css3">
-          <img src={require("./imgs/css3.png")} alt="CSS3" />
-        </div>
+        <img src={require("./imgs/nodejs.png")} alt="Node.js" />
+
+        <img src={require("./imgs/reactjs.png")} alt="React.js" />
+
+        <img src={require("./imgs/mongoDB.png")} alt="MongoDB" />
+
+        <img src={require("./imgs/mysql.png")} alt="MySQL" />
+
+        <img src={require("./imgs/html5.png")} alt="HTML5" />
+
+        <img src={require("./imgs/css3.png")} alt="CSS3" />
       </section>
       <hr></hr>
       <h1>Education && certifications</h1>

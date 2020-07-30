@@ -34,14 +34,15 @@ nav {
 ul {
   list-style: none;
 }
-/* ul.nav_links li {
-  margin-right: 1rem;
-} */
+
 .nav_links a {
   text-decoration: none;
   color: #fff;
 }
 
+.nav_links a:hover {
+  color: #999;
+}
 .burger {
   display: flex;
   flex-direction: column;
