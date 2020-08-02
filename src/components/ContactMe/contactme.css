@@ -69,3 +69,16 @@ i.fa-envelope {
 p.envelope {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  section.Container div i {
+    width: 40px;
+    height: 40px;
+  }
+  section.Container div p {
+    font-size: 14px;
+  }
+  section.Container div {
+    margin-left: 0;
+  }
+}
