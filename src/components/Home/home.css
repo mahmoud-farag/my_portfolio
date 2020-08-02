@@ -99,4 +99,9 @@ section.main .btns .btn:hover {
     grid-template-columns: 15rem;
     height: 10rem;
   }
+
+  section.main .hint p {
+    font-size: 14px;
+    display: block;
+  }
 }
