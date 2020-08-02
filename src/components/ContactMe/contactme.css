@@ -6,32 +6,41 @@
 }
 
 section.Container {
-  margin-left: 15rem;
-  margin-right: 15rem;
-  margin-top: 5rem;
+  width: 70%;
+  margin: 5rem auto auto auto;
+
+  /* background-color: blanchedalmond; */
 }
 section.Container div {
   margin-bottom: 3rem;
   margin-left: 3rem;
-  display: block;
-  flex-direction: column;
   position: relative;
 }
 
 section.Container div i {
   width: 5%;
+  margin-right: 2rem;
 }
 
 section.Container div a,
 section.Container div p {
   width: 95%;
 }
-
+a {
+  text-decoration: none;
+}
 section.Container div p {
   position: absolute;
-  left: 4.2rem;
-  top: -1.2rem;
+  left: 4rem;
+  top: 0.5rem;
 }
+
+/* section.Container div p:nth-child(4),
+section.Container div p:last-child {
+  position: absolute;
+  left: 4rem;
+  top: 0.5rem;
+} */
 
 i.fa-facebook {
   color: #3b5998;
