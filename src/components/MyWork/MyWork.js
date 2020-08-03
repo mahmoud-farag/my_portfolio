@@ -58,7 +58,7 @@ const MyWork = () => {
         <hr></hr>
         <section className="card_body">
           <p>
-            <span>description:</span>Confrence Management System (COMS){" "}
+            <span>description:</span>Confrence Management System (COMS)
           </p>
           <p>
             <span>Technologies:</span>
