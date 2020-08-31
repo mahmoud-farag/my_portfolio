@@ -10,11 +10,12 @@ const MyWork = () => {
         <section className="card_body">
           <p>
             <span>description:</span>The graduation project, it's main idea is
-            display Pharaonic antiquities in 3D objects and images
+            display Pharaonic antiquities in 3D objects and images,I develope
+            the whole API and helped in frontEnd also
           </p>
           <p>
             <span>Technologies:</span>
-            Node.js, React.js, MongoDB, Bootstrap.css
+            NodeJS, ReactJS, MongoDB, BootstrapCSS
           </p>
         </section>
 
@@ -23,7 +24,9 @@ const MyWork = () => {
             <a href="https://github.com/mahmoud-farag/egyptourism1">GitHub</a>
           </button>
           <button>
-            <a href="">Live Demo</a>
+            <a href="https://5f384709a0a6f50007c3a500--nervous-knuth-79e018.netlify.app/">
+              Live Demo
+            </a>
           </button>
         </section>
       </article>
@@ -33,11 +36,11 @@ const MyWork = () => {
         <hr></hr>
         <section className="card_body">
           <p>
-            <span>description:</span>simple chat-app with my friends privet
+            <span>description:</span>simple chat-app with my friends
           </p>
           <p>
             <span>Technologies:</span>
-            Node.js, React.js, Bootstrap.css
+            NodeJS, SocketIO, ReactJS, BootstrapCSS
           </p>
         </section>
 
@@ -58,11 +61,11 @@ const MyWork = () => {
         <hr></hr>
         <section className="card_body">
           <p>
-            <span>description:</span>Confrence Management System (COMS)
+            <span>description:</span>Conference Management System (COMS)
           </p>
           <p>
             <span>Technologies:</span>
-            Java-EE, My-SQL, html, materialize.css
+            Java-EE, MySQL, html, materialize.css
           </p>
         </section>
 

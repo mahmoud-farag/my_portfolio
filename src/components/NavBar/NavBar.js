@@ -29,7 +29,9 @@ const NavBar = () => {
   };
   return (
     <nav>
-      <h3 className="logo">Logo</h3>
+      <h3 className="logo">
+        <img src="mahmoud3.png" alt="Logo" />
+      </h3>
       <ul className="nav_links" id="ul">
         <li>
           <a href="/">Home</a>

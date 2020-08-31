@@ -17,6 +17,7 @@ body {
   position: relative;
 }
 
+
 section.container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -26,7 +27,6 @@ section.container {
 }
 article {
   background-color: #9e9e9e;
-
   height: 28rem;
   border-radius: 20px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7);

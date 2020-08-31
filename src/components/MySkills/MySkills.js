@@ -21,7 +21,10 @@ const MySkills = () => {
       <hr></hr>
       <h1>Education && certifications</h1>
       <section className="certifications">
-        <h3>Bachelor of Computer Science from Menofia-university</h3>
+        <ol>
+          <li>Bachelor of Computer Science from Menofia-university</li>
+          <li>Project Management from USA university</li>
+        </ol>
       </section>
     </div>
   );

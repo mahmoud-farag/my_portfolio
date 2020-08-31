@@ -32,6 +32,16 @@ hr {
   border-radius: 10rem;
 }
 
+.certifications ol {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.certifications ol li {
+  margin-bottom: 1rem;
+  margin-left: 1.1rem;
+}
+
 @media (max-width: 900px) {
   .container section.skills {
     margin-top: 2rem;
