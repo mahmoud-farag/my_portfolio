@@ -18,7 +18,7 @@ const NavBar = () => {
           li.style.animation = "";
         } else {
           li.style.animation = `animateLinks .5 ease forwards ${
-            index / 7 + 1.4
+            index / 7 + 2.3
           }s`;
         }
       });

@@ -8,6 +8,11 @@ const Home = () => {
       <div className="hint">
         <h1>Eng: Mahmoud Farag</h1>
         <p>Full stack web developer</p>
+
+        <p>
+          My target is to be MERN full-stack developer, now I'm a nodejs
+          developer and I learning ReactJS in parallel
+        </p>
       </div>
       <div className="btns">
         <a className="btn btn_my_work" href="/MyWork">
@@ -15,7 +20,7 @@ const Home = () => {
         </a>
         <a
           className="btn btn_my_resume"
-          href="https://novoresume.com/editor/resume/94a20c30-cbf7-11ea-9f90-f10d8d81d234#"
+          href="https://drive.google.com/drive/folders/1YgG9nSlmvFo09uEAEdoBXD78DuimplfQ?usp=sharing"
         >
           Read my resume
         </a>

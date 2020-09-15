@@ -21,7 +21,9 @@ const MyWork = () => {
 
         <section className="card_buttons">
           <button>
-            <a href="https://github.com/mahmoud-farag/egyptourism1">GitHub</a>
+            <a href="https://Source Code.com/mahmoud-farag/egyptourism1">
+              Source Code
+            </a>
           </button>
           <button>
             <a href="https://5f384709a0a6f50007c3a500--nervous-knuth-79e018.netlify.app/">
@@ -46,8 +48,8 @@ const MyWork = () => {
 
         <section className="card_buttons">
           <button>
-            <a href="https://github.com/mahmoud-farag/personal-ChatApp-express-react">
-              GitHub
+            <a href="https://Source Code.com/mahmoud-farag/personal-ChatApp-express-react">
+              Source Code
             </a>
           </button>
           <button>
@@ -71,7 +73,7 @@ const MyWork = () => {
 
         <section className="card_buttons">
           <button>
-            <a href="https://github.com/Mohanedy98/COMS-SE">GitHub</a>
+            <a href="https://Source Code.com/Mohanedy98/COMS-SE">Source Code</a>
           </button>
           <button>
             <a href="">Live Demo</a>

@@ -51,9 +51,28 @@ hr {
   body {
     height: 100%;
   }
+  html {
+    padding-top: 4rem;
+  }
 
   .container section.skills img {
     width: 70px;
     height: 70px;
   }
+  h1 {
+    font-size: 22px;
+    text-align: left;
+  }
+  hr {
+    margin: 0.4rem 0 0.4rem 0;
+  }
+  .certifications ol {
+    font-size: 15px;
+  }
 }
+
+/* @media screen and (max-width: 768px) {
+  h1{
+
+  }
+} */

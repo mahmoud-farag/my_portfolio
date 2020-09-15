@@ -7,7 +7,6 @@
 
 /* 
   to fit the background image on the mobile mode and to remove any overflow in x-axis
-
  but you must make only the body position: relative
 */
 html,
@@ -16,7 +15,7 @@ body {
 }
 
 html {
-  background: url("./imgs/waman.jpg") no-repeat center center fixed;
+  background: url("./imgs/water.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +24,7 @@ html {
   overflow: hidden;
 }
 body {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: sans-serif;
   font-size: 20px;
   position: relative;
 }
@@ -40,8 +39,20 @@ section.main {
 section.main .hint {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* background-color: crimson; */
+  padding-left: 10%;
+  animation: topToBottom 2s ease-in;
+}
+
+@keyframes topToBottom {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 section.main .loaded {
@@ -49,12 +60,14 @@ section.main .loaded {
 }
 section.main .hint h1,
 section.main .hint p {
-  color: #1c223b;
+  color: #fff;
   opacity: 0.9;
 }
 section.main .hint h1 {
   padding: 0;
   margin: 0;
+  text-align: left;
+  /* background-color: cyan; */
 }
 
 section.main .hint p {
@@ -65,7 +78,7 @@ section.main .btns {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 7rem;
   /* background-color: rgba(0, 0, 0, 0.6); */
 }
 section.main .btns .btn {
@@ -83,25 +96,63 @@ section.main .btns .btn:hover {
   border: 2px solid #000;
   color: #fff;
   opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
+.btn_my_resume {
+  animation: rightToLeft 1.5s ease-in;
+}
+
+.btn_my_work {
+  animation: leftToRight 1.5s ease-in;
+}
+
+@keyframes leftToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
   html {
-    background: url("./imgs/waman-mobile.jpg") no-repeat center center fixed;
+    background: url("./imgs/water.jpg") no-repeat center center fixed;
+    background-size: cover;
   }
+
   section.main .btns .btn {
     font-weight: bold;
+    font-size: 18px;
+    padding: 0.4rem;
   }
   section.main .btns {
     display: grid;
     grid-template-columns: 15rem;
-    height: 10rem;
+    height: 7rem;
+    margin-top: 3rem;
   }
 
   section.main .hint p {
-    font-size: 14px;
+    font-size: 13px;
     display: block;
+  }
+  section.main .hint h1 {
+    font-size: 18px;
   }
 }
