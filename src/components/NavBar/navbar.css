@@ -85,6 +85,9 @@ nav .logo img {
   body {
     overflow-x: hidden;
   }
+  nav {
+    z-index: 10000;
+  }
   nav ul.nav_links {
     width: 60%;
   }
