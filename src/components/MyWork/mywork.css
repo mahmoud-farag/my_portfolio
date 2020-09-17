@@ -78,7 +78,7 @@ ody {
 .card-image {
   grid-area: image;
   position: relative;
-  background-color: brown;
+  /* background-color: brown; */
   margin-bottom: 1rem;
 }
 
@@ -136,7 +136,7 @@ ody {
 }
 
 .card:hover {
-  transform: scale(1.1);
+  transform: scale(102%);
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -221,7 +221,7 @@ ody {
   .cards {
     width: 95%;
     margin: 1rem auto auto auto;
-    row-gap: 1rem;
+    row-gap: 2rem;
     /* background-color: #00a6a6; */
     /* display: flex;
     flex-direction: column;
