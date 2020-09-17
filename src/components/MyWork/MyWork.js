@@ -1,85 +1,297 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from "react";
 
 import "./mywork.css";
 const MyWork = () => {
   return (
-    <section className="container">
-      <article className="card_proj ">
-        <h2>Egyptorism</h2>
-        <hr></hr>
-        <section className="card_body">
+    <section class="cards">
+      <div class="card">
+        <div class="card-image">
+          <img src={require("./imgs/egyptorism.png")} alt="image" />
+          <div class="brightness"></div>
+        </div>
+        <div class="card-text">
+          <h2>Egyptourism</h2>
           <p>
-            <span>description:</span>The graduation project, it's main idea is
-            display Pharaonic antiquities in 3D objects and images,I develope
-            the whole API and helped in frontEnd also
+            The graduation project, it's main idea is display Pharaonic
+            antiquities in 3D objects and images,I develope the whole API and
+            helped in frontEnd also. the technologies which was used in the
+            projects are NodeJS, ReactJS, MongoDB, BootstrapCSS
           </p>
-          <p>
-            <span>Technologies:</span>
-            NodeJS, ReactJS, MongoDB, BootstrapCSS
-          </p>
-        </section>
+        </div>
 
-        <section className="card_buttons">
-          <button>
-            <a href="https://Source Code.com/mahmoud-farag/egyptourism1">
-              Source Code
+        <div class="card-btns">
+          <div class=" btn source-btn" align="center">
+            <a
+              class="example_a"
+              id="source"
+              href="https://github.com/mahmoud-farag/egyptourism1"
+              // to open the repo in new tab
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              source code
             </a>
-          </button>
-          <button>
-            <a href="https://5f384709a0a6f50007c3a500--nervous-knuth-79e018.netlify.app/">
-              Live Demo
+          </div>
+          <div class="btn live-btn" align="center">
+            <a
+              class="example_a"
+              id="live"
+              href="https://5f384709a0a6f50007c3a500--nervous-knuth-79e018.netlify.app/"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              live demo
             </a>
-          </button>
-        </section>
-      </article>
+          </div>
+        </div>
+      </div>
 
-      <article className="card_proj ">
-        <h2>Elso7ab</h2>
-        <hr></hr>
-        <section className="card_body">
+      <div class="card">
+        <div class="card-image">
+          <img src={require("./imgs/elso7ab.png")} alt="image" />
+          <div class="brightness"></div>
+        </div>
+        <div class="card-text">
+          <h2>Elso7ab</h2>
           <p>
-            <span>description:</span>simple chat-app with my friends
+            simple chat-app with my friends.the technologies which was used in
+            the projects are NodeJS, SocketIO, ReactJS, BootstrapCSS
           </p>
-          <p>
-            <span>Technologies:</span>
-            NodeJS, SocketIO, ReactJS, BootstrapCSS
-          </p>
-        </section>
-
-        <section className="card_buttons">
-          <button>
-            <a href="https://Source Code.com/mahmoud-farag/personal-ChatApp-express-react">
-              Source Code
+        </div>
+        <div class="dummy"></div>
+        <div class="card-btns">
+          <div class=" btn source-btn" align="center">
+            <a
+              class="example_a"
+              id="source"
+              href="https://github.com/mahmoud-farag/ChatAppServer"
+              // to open the repo in new tab
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              source code
             </a>
-          </button>
-          <button>
-            <a href="https://hardcore-leakey-0add50.netlify.app/">Live Demo</a>
-          </button>
-        </section>
-      </article>
+          </div>
+          <div class="btn live-btn" align="center">
+            <a
+              class="example_a"
+              id="live"
+              href="https://optimistic-leakey-237ca0.netlify.app/"
+              // to open the repo in new tab
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              live demo
+            </a>
+          </div>
+        </div>
+      </div>
 
-      <article className="card_proj ">
-        <h2>COMS</h2>
-        <hr></hr>
-        <section className="card_body">
+      <div class="card">
+        <div class="card-image">
+          <img src={require("./imgs/img11.png")} alt="image" />
+          <div class="brightness"></div>
+        </div>
+        <div class="card-text">
+          <h2>COMS</h2>
           <p>
-            <span>description:</span>Conference Management System (COMS)
+            Conference Management System (COMS). the technologies which was used
+            in the projects are Java-EE, MySQL, html, materialize.css
           </p>
-          <p>
-            <span>Technologies:</span>
-            Java-EE, MySQL, html, materialize.css
-          </p>
-        </section>
+        </div>
+        <div class="dummy"></div>
+        <div class="card-btns">
+          <div class=" btn source-btn" align="center">
+            <a
+              class="example_a"
+              id="source"
+              href="https://github.com/Mohanedy98/COMS-SE"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              source code
+            </a>
+          </div>
+          <div class="btn live-btn" align="center">
+            <a
+              class="example_a"
+              id="live"
+              href="#"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              live demo
+            </a>
+          </div>
+        </div>
+      </div>
 
-        <section className="card_buttons">
-          <button>
-            <a href="https://Source Code.com/Mohanedy98/COMS-SE">Source Code</a>
-          </button>
-          <button>
-            <a href="">Live Demo</a>
-          </button>
-        </section>
-      </article>
+      <div class="card">
+        <div class="card-image">
+          <img src={require("./imgs/budgety.png")} alt="image" />
+          <div class="brightness"></div>
+        </div>
+        <div class="card-text">
+          <h2>Monthly Budget</h2>
+          <p>
+            project desc Lorem ipsum dolor sit amet consectetur, Ducimus,
+            repudiandae temporibus omnis illum maxime quod temporibus omnis
+            illum maxime quod temporibus omnis illum maxime quod temporibus
+            omnis illum maxime quod temporibus omnis illum maxime quod
+          </p>
+        </div>
+
+        <div class="card-btns">
+          <div class=" btn source-btn" align="center">
+            <a
+              class="example_a"
+              id="source"
+              href="https://github.com/mahmoud-farag/monthlyBudget"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              source code
+            </a>
+          </div>
+          <div class="btn live-btn" align="center">
+            <a
+              class="example_a"
+              id="live"
+              href="https://goofy-allen-0c5101.netlify.app/"
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              live demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* <div class="card">
+        <div class="card-image">
+          <img src={require("./imgs/img11.png")} alt="image" />
+          <div class="brightness"></div>
+        </div>
+        <div class="card-text">
+          <h2>Elso7ab</h2>
+          <p>
+            project desc Lorem ipsum dolor sit amet consectetur, Ducimus,
+            repudiandae temporibus omnis illum maxime quod temporibus omnis
+            illum maxime quod temporibus omnis illum maxime quod temporibus
+            omnis illum maxime quod temporibus omnis illum maxime quod
+          </p>
+        </div>
+
+        <div class="card-btns">
+          <div class=" btn source-btn" align="center">
+            <a
+              class="example_a"
+              id="source"
+              href="https://github.com/mahmoud-farag/ChatAppServer"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              source code
+            </a>
+          </div>
+          <div class="btn live-btn" align="center">
+            <a
+              class="example_a"
+              id="live"
+              href="https://optimistic-leakey-237ca0.netlify.app/"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              live demo
+            </a>
+          </div>
+        </div>
+      </div> */}
+
+      <div class="card">
+        <div class="card-image">
+          <img src={require("./imgs/gallery.png")} alt="image" />
+          <div class="brightness"></div>
+        </div>
+        <div class="card-text">
+          <h2>Image Gallery</h2>
+          <p>
+            project desc Lorem ipsum dolor sit amet consectetur, Ducimus,
+            repudiandae temporibus omnis illum maxime quod temporibus omnis
+            illum maxime quod temporibus omnis illum maxime quod temporibus
+            omnis illum maxime quod temporibus omnis illum maxime quod
+          </p>
+        </div>
+
+        <div class="card-btns">
+          <div class=" btn source-btn" align="center">
+            <a
+              class="example_a"
+              id="source"
+              href="https://github.com/mahmoud-farag/monthlyBudget"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              source code
+            </a>
+          </div>
+          <div class="btn live-btn" align="center">
+            <a
+              class="example_a"
+              id="live"
+              href="https://hopeful-bohr-d406fa.netlify.app/"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              live demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-image">
+          <img src={require("./imgs/protfolio.png")} alt="image" />
+          <div class="brightness"></div>
+        </div>
+        <div class="card-text">
+          <h2>My portfolio</h2>
+          <p>
+            project desc Lorem ipsum dolor sit amet consectetur, Ducimus,
+            repudiandae temporibus omnis illum maxime quod temporibus omnis
+            illum maxime quod temporibus omnis illum maxime quod temporibus
+            omnis illum maxime quod temporibus omnis illum maxime quod
+          </p>
+        </div>
+
+        <div class="card-btns">
+          <div class=" btn source-btn" align="center">
+            <a
+              class="example_a"
+              id="source"
+              href="https://github.com/mahmoud-farag/my_portfolio"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              source code
+            </a>
+          </div>
+          <div class="btn live-btn" align="center">
+            <a
+              class="example_a"
+              id="live"
+              href="https://modest-hopper-e393dd.netlify.app/"
+              // target="_blank"
+              rel="nofollow noopener"
+            >
+              live demo
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

@@ -1,84 +1,134 @@
 * {
+  margin: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-section.Container {
-  width: 70%;
-  margin: 8rem auto auto auto;
-
-  /* background-color: blanchedalmond; */
+.contacts {
+  width: 65%;
+  margin: 3rem auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  /* background-color: cadetblue; */
 }
-section.Container div {
-  margin-bottom: 3rem;
-  margin-left: 3rem;
-  position: relative;
+.contacts div {
+  display: inline;
+  /* background-color: chartreuse; */
+  margin-bottom: 2rem;
+  padding: 1rem;
+  /* border-bottom: 2px solid crimson; */
+  transition: all 0.5s ease-in-out;
 }
-
-section.Container div i {
-  width: 5%;
-  margin-right: 2rem;
+.contacts div:hover {
+  transform: scale(1.1);
 }
-
-section.Container div a,
-section.Container div p {
-  width: 95%;
-}
-a {
+.contacts div a {
   text-decoration: none;
 }
-section.Container div p {
-  position: absolute;
-  left: 4rem;
-  top: 0.5rem;
+
+.contacts div a,
+.contacts div p {
+  color: #efd6ac;
 }
 
-/* section.Container div p:nth-child(4),
-section.Container div p:last-child {
-  position: absolute;
-  left: 4rem;
-  top: 0.5rem;
-} */
-
-i.fa-facebook {
-  color: #3b5998;
-}
-a.facebook {
-  color: #3b5998;
+.contacts div:nth-child(5) p::before,
+.contacts div:nth-child(4) p::before,
+.contacts div:nth-child(3) p::before,
+.contacts div:nth-child(2) p::before,
+.contacts div:first-child p::before {
+  animation: fadeIn 1.5s ease-in;
+  margin-right: 3rem;
 }
 
-i.fa-whatsapp {
-  color: #075e54;
-}
-p.whatsapp {
-  color: #075e54;
-}
-
-i.fa-linkedin {
-  color: #0e76a8;
-}
-a.linkedin {
-  color: #0e76a8;
-}
-
-i.fa-envelope {
-  color: #999;
-}
-p.envelope {
+.contacts div:first-child p::before {
+  content: attr("class");
   color: #fff;
 }
 
+.contacts div:nth-child(2) p::before {
+  content: attr("class");
+  color: #0e76a8;
+}
+
+.contacts div:nth-child(3) p::before {
+  content: attr("class");
+  color: #3b5998;
+  margin-right: 3.7rem;
+}
+
+.contacts div:nth-child(4) p::before {
+  content: attr("class");
+  color: #075e54;
+}
+
+.contacts div:nth-child(5) p::before {
+  content: attr("class");
+  color: #fff;
+}
+
+.contacts div:nth-child(5) p::before,
+.contacts div:nth-child(4) p::before,
+.contacts div:nth-child(3) p::before,
+.contacts div:nth-child(2) p::before,
+.contacts div:first-child p::before {
+  animation: fadeIn 1.5s ease-in;
+  margin-right: 3rem;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    /* transform: translateX(-30px); */
+  }
+  to {
+    opacity: 1;
+    /* transform: translateX(0px); */
+  }
+}
+
+.contacts div:nth-child(5) p,
+.contacts div:nth-child(4) p,
+.contacts div:nth-child(3) p,
+.contacts div:nth-child(2) p,
+.contacts div:first-child p {
+  animation: rightToLeft 1.5s ease-in;
+}
+
+@keyframes rightToLeft {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
 @media screen and (max-width: 768px) {
-  section.Container div i {
-    width: 40px;
-    height: 40px;
+  .contacts {
+    /* background-color: darkcyan; */
   }
-  section.Container div p {
-    font-size: 14px;
+  .contacts div p {
+    font-size: 18px;
   }
-  section.Container div {
-    margin-left: 0;
+  .contacts div:nth-child(5) p::before,
+  .contacts div:nth-child(4) p::before,
+  .contacts div:nth-child(3) p::before,
+  .contacts div:nth-child(2) p::before,
+  .contacts div:first-child p::before {
+    margin-right: 1rem;
+  }
+
+  .contacts div:nth-child(5) p {
+    /* background-color: cyan; */
+    width: 20rem;
+  }
+  .contacts {
+    width: 90%;
   }
 }

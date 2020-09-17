@@ -3,7 +3,7 @@ import React from "react";
 import "./myskills.css";
 const MySkills = () => {
   return (
-    <div className="container">
+    <div className="collection">
       <h1>Technologies and skills</h1>
       <section className="skills">
         <img src={require("./imgs/nodejs.png")} alt="Node.js" />
