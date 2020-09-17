@@ -31,6 +31,15 @@
   text-decoration: none;
 }
 
+/* .contacts div p {
+  background-color: aqua;
+  width: 20rem;
+} */
+
+.contacts div p {
+  /* background-color: aqua; */
+  width: 40rem;
+}
 .contacts div a,
 .contacts div p {
   color: #efd6ac;
@@ -42,33 +51,37 @@
 .contacts div:nth-child(2) p::before,
 .contacts div:first-child p::before {
   animation: fadeIn 1.5s ease-in;
-  margin-right: 3rem;
 }
 
 .contacts div:first-child p::before {
   content: attr("class");
   color: #fff;
+  margin-right: 3rem;
 }
 
 .contacts div:nth-child(2) p::before {
   content: attr("class");
   color: #0e76a8;
+  margin-right: 3rem;
 }
 
 .contacts div:nth-child(3) p::before {
   content: attr("class");
   color: #3b5998;
-  margin-right: 3.7rem;
+  margin-right: 3.5rem;
+  background-color: #fff;
 }
 
 .contacts div:nth-child(4) p::before {
   content: attr("class");
   color: #075e54;
+  margin-right: 2.6rem;
 }
 
 .contacts div:nth-child(5) p::before {
   content: attr("class");
   color: #fff;
+  margin-right: 1.8rem;
 }
 
 .contacts div:nth-child(5) p::before,
@@ -77,7 +90,6 @@
 .contacts div:nth-child(2) p::before,
 .contacts div:first-child p::before {
   animation: fadeIn 1.5s ease-in;
-  margin-right: 3rem;
 }
 @keyframes fadeIn {
   from {

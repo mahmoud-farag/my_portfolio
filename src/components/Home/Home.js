@@ -10,8 +10,8 @@ const Home = () => {
         <p>Full stack web developer</p>
 
         <p>
-          My target is to be MERN full-stack developer, now I'm a nodejs
-          developer and I learning ReactJS in parallel
+          My target is to be MERN full-stack developer, now I'm a NodeJS
+          developer.
         </p>
       </div>
       <div className="btns">

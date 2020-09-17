@@ -137,10 +137,10 @@ const MyWork = () => {
         <div class="card-text">
           <h2>Monthly Budget</h2>
           <p>
-            project desc Lorem ipsum dolor sit amet consectetur, Ducimus,
-            repudiandae temporibus omnis illum maxime quod temporibus omnis
-            illum maxime quod temporibus omnis illum maxime quod temporibus
-            omnis illum maxime quod temporibus omnis illum maxime quod
+            a small project implemented using just pure HTML, CSS, and JS. the
+            project used to calculate the home budget per month, you just need
+            to insert your incomes and your expenses. also you can delete any
+            item in any time and the whole budget will be updated automatically.
           </p>
         </div>
 
@@ -219,10 +219,8 @@ const MyWork = () => {
         <div class="card-text">
           <h2>Image Gallery</h2>
           <p>
-            project desc Lorem ipsum dolor sit amet consectetur, Ducimus,
-            repudiandae temporibus omnis illum maxime quod temporibus omnis
-            illum maxime quod temporibus omnis illum maxime quod temporibus
-            omnis illum maxime quod temporibus omnis illum maxime quod
+            it's just a gallery demo used to manage pictures online, until now
+            it just display pictures without any processing.
           </p>
         </div>
 
@@ -260,10 +258,9 @@ const MyWork = () => {
         <div class="card-text">
           <h2>My portfolio</h2>
           <p>
-            project desc Lorem ipsum dolor sit amet consectetur, Ducimus,
-            repudiandae temporibus omnis illum maxime quod temporibus omnis
-            illum maxime quod temporibus omnis illum maxime quod temporibus
-            omnis illum maxime quod temporibus omnis illum maxime quod
+            my own portfolio project, i was implement it using ReactJS, pure
+            CSS, and HTML, this is the second version, but i will update it and
+            add new features as i could in the future
           </p>
         </div>
 
